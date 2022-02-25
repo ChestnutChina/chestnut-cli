@@ -1,0 +1,72 @@
+{
+	"name": "chestnut-cli",
+	"version": "1.0.0",
+	"description": "chestnut 配套相关的脚手架",
+	"keywords": [
+		"chestnut",
+		"project",
+		"CLI",
+		"javascript"
+	],
+	"bin": {
+		"chestnut-cli": "./bin/chestnut.js"
+	},
+	"files": [
+		"bin",
+		"template"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"ignore-scripts": true,
+		"production": true
+	},
+	"scripts": {
+		"before:npm:publish": "node ./optimize-package.js",
+		"lint": "eslint . --ext .js",
+		"release": "release-it",
+		"changelog": "conventional-changelog -p chestnut -i CHANGELOG.md -s -r 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ChestnutChina/chestnut-cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ChestnutChina/chestnut-cli/issues"
+	},
+	"engines": {
+		"node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+	},
+	"author": "bnuephjx",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.17.0",
+		"@commitlint/cli": "^16.2.1",
+		"@commitlint/config-conventional": "^16.2.1",
+		"@release-it/bumper": "^3.0.1",
+		"conventional-changelog-chestnut": "^1.1.2",
+		"conventional-changelog-cli": "^2.2.2",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.9.0",
+		"eslint-config-prettier": "^8.4.0",
+		"eslint-define-config": "^1.2.5",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-vue": "^8.4.1",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.3.4",
+		"prettier": "^2.5.1",
+		"release-it": "^14.12.4"
+	},
+  "dependencies": {
+		"chalk": "^4.1.2",
+		"commander": "^9.0.0",
+		"execa": "^1.0.0",
+		"fs-extra": "^10.0.0",
+		"handlebars": "^4.7.7",
+		"inquirer": "^8.2.0",
+		"lodash": "^4.17.21",
+		"ora": "^5.4.1",
+		"semver": "^7.3.5",
+		"validate-npm-package-name": "^3.0.0"
+	}
+}
