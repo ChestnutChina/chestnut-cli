@@ -1,6 +1,6 @@
 {
 	"name": "chestnut-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "chestnut 配套相关的脚手架",
 	"keywords": [
 		"chestnut",
@@ -57,7 +57,7 @@
 		"prettier": "^2.5.1",
 		"release-it": "^14.12.4"
 	},
-  "dependencies": {
+	"dependencies": {
 		"chalk": "^4.1.2",
 		"commander": "^9.0.0",
 		"execa": "^1.0.0",
