@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.3...1.0.4) (2022-02-27)
+
+
+### Bug Fixes
+
+* 修复版本号 ([bff0454](https://github.com/ChestnutChina/chestnut-cli/commit/bff0454c9f24ef8eef0e82e7c80a458babdb2b85))
+
+
 ## [1.0.3](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.2...1.0.3) (2022-02-27)
 
 
