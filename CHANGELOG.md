@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.2...1.0.3) (2022-02-27)
+
+
+### Code Refactoring
+
+* 优化了配置文件的优先级 ([d008663](https://github.com/ChestnutChina/chestnut-cli/commit/d008663e4c38643885bccdb6209e95eee1bb8141))
+
+
 ## [1.0.2](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.1...1.0.2) (2022-02-25)
 
 
