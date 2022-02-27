@@ -13,3 +13,4 @@ node_modules/
 .prettierrc
 .release-it.json
 commitlint.config.js
+optimize-package.js
