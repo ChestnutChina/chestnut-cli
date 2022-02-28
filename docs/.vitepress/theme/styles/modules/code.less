@@ -1,0 +1,229 @@
+blockquote {
+  margin: 1rem 0;
+  border-left: 0.2rem solid #dfe2e5;
+  padding: 0.25rem 0 0.25rem 1rem;
+  font-size: 1rem;
+  color: #999;
+}
+
+code {
+  margin: 0;
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  background: #f2f4f5;
+  color: #476582;
+}
+
+code .token.deleted {
+  color: #ec5975;
+}
+
+div[class*='language-'] {
+  position: relative;
+  overflow-x: auto;
+  border: 1px solid #eaeefb;
+  background-color: #fafafa;
+}
+
+li > div[class*='language-'] {
+  border-radius: 6px 0 0 6px;
+  margin: 1rem -1.5rem 1rem -1.25rem;
+}
+
+[class*='language-'] pre,
+[class*='language-'] code {
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  tab-size: 4;
+  hyphens: none;
+}
+
+[class*='language-'] pre {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  overflow-x: auto;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 0.6em 1em;
+}
+
+[class*='language-'] code {
+  padding: 0;
+  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+  font-size: 12px;
+  color: #595959;
+  line-height: 1.8;
+  -webkit-font-smoothing: auto;
+}
+
+/* Line highlighting */
+
+.highlight-lines {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem 0;
+  width: 100%;
+  user-select: none;
+  overflow: hidden;
+}
+
+.highlight-lines .highlighted {
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+/* Line numbers mode */
+
+div[class*='language-'].line-numbers-mode {
+  padding-left: 3.5rem;
+}
+
+.line-numbers-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1.25rem 0;
+  width: 3.5rem;
+  text-align: center;
+  color: #888;
+}
+
+/* Language marker */
+
+div[class*='language-']:before {
+  position: absolute;
+  top: 0;
+  right: 1em;
+  z-index: 2;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.set-language() {
+  @language: {
+    html: 'html';
+    markup: 'html';
+    md: 'md';
+    markdown: 'md';
+    css: 'css';
+    sass: 'sass';
+    scss: 'scss';
+    less: 'less';
+    stylus: 'styl';
+    javascript: 'javascript';
+    js: 'javascript';
+    typescript: 'typescript';
+    ts: 'typescript';
+    ruby: 'ruby';
+    rb: 'ruby';
+    py: 'python';
+    python: 'python';
+    bash: 'sh';
+    sh: 'sh';
+    dockerfile: 'dockerfile';
+    java: 'java';
+    vue: 'vue';
+    json: 'json';
+    php: 'php';
+    go: 'go';
+    rust: 'rust';
+    c: 'c';
+    yaml: 'yaml';
+    shell: 'shell';
+  };
+  each(@language, {
+    div[class~="language-@{key}"]:before {
+      content: @value;
+    }
+  });
+}
+
+.set-language();
+
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML.
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ *
+ * @author Rose Pritchard
+ */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #848486;
+}
+
+.token.punctuation {
+  color: #a8a9cc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+  color: #3182bd;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #c25205;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #717c11;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #c792ea;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #0b8235;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}

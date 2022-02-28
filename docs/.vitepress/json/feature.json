@@ -1,0 +1,34 @@
+{
+  "text": "功能",
+  "group": [
+    {
+      "text": "配置选项",
+      "children": [
+        {
+          "text": "Code Style",
+          "link": "/code-style"
+        },
+        {
+          "text": "Code Detection",
+          "link": "/code-detection"
+        },
+        {
+          "text": "Code Formatter",
+          "link": "/code-formatter"
+        },
+        {
+          "text": "Release",
+          "link": "/release"
+        },
+        {
+          "text": "Commit Message Style",
+          "link": "/commit-message-style"
+        },
+        {
+          "text": "Git Hooks",
+          "link": "/git-hooks"
+        }
+      ]
+    }
+  ]
+}
