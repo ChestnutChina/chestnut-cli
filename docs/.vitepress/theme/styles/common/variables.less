@@ -1,0 +1,203 @@
+/*▼----------中文为两个字符----------▼*/
+/*▲----------中文为两个字符----------▲*/
+
+
+/*▼----------组件库名称缩写----------▼*/
+@namespace: cui;
+/*▲----------组件库名称缩写----------▲*/
+
+
+/*▼----------基础颜色----------▼*/
+@black: #000000; // 黑色
+@white: #ffffff; // 白色
+
+@primary: #1890ff; // 主体颜色
+@success: #52c41a; // 成功情况下颜色
+@warning: #faad14; // 警告情况下颜色
+@danger: #f5222d; // 危险情况下颜色
+
+@header-color: lighten(@black, 15%); // 标题颜色
+@text-color: lighten(@black, 35%); // 文本颜色
+@sub-text-color: lighten(@black, 55%); // 次文本颜色
+@link-color: @primary; // 超链接文本颜色
+
+@disabled-color: lighten(@black, 70%); // 失效颜色
+@disabled-bg-color: lighten(@black, 94%);
+
+@border-color: #d9d9d9; // 边框颜色
+
+@body-background-color: @white;  // <body> 颜色
+
+@component-background-color: @white; // 组件颜色
+
+@popover-background-color: @white; // 弹窗颜色
+/*▲----------基础颜色----------▲*/
+
+
+/*▼----------图标配置----------▼*/
+@icon-font-family: 'chestnut-icons';
+@icon-font-path: '../fonts/'; //路径
+@icon-font-name: 'iconfont'; //名称
+/*▲----------图标配置----------▲*/
+
+
+/*▼----------字体排版----------▼*/
+@font-family-base: Avenir,-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; //正常字体
+
+@font-size-base: 14px; // 正常字号
+@font-size-large: ceil((@font-size-base * 1.14)); // ~16px 大字号
+@font-size-small: ceil((@font-size-base * 0.85)); // ~12px 小字号
+
+@font-size-h1: floor((@font-size-base * 2.2)); // ~30px
+@font-size-h2: floor((@font-size-base * 1.7)); // ~24px
+@font-size-h3: ceil((@font-size-base * 1.42)); // ~20px
+@font-size-h4: ceil((@font-size-base * 1.14)); // ~16px
+@font-size-h5: ceil((@font-size-base * 1)); // ~14px
+@font-size-h6: ceil((@font-size-base * 0.85)); // ~12px
+
+@font-variant-base: tabular-nums;
+@font-feature-settings-base: 'tnum';
+
+@line-height-base: 1.428571429; //行高  20/14
+@line-height-large: 1.3333333;
+@line-height-small: 1.5;
+/*▲----------字体排版----------▲*/
+
+
+/*▼----------hover状态----------▼*/
+@link-hover-color: darken(@link-color, 15%); // 超链接文本颜色
+@link-hover-decoration: none; // 无下划线
+/*▲----------hover状态----------▲*/
+
+
+/*▼----------过渡动画----------▼*/
+@transition-duration: 0.3s;
+
+@ease-base-out: cubic-bezier(0.7, 0.3, 0.1, 1);
+@ease-base-in: cubic-bezier(0.9, 0, 0.3, 0.7);
+@ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+@ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+@ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+@ease-out-back: cubic-bezier(0.12, 0.4, 0.29, 1.46);
+@ease-in-back: cubic-bezier(0.71, -0.46, 0.88, 0.6);
+@ease-in-out-back: cubic-bezier(0.71, -0.46, 0.29, 1.46);
+@ease-out-circ: cubic-bezier(0.08, 0.82, 0.17, 1);
+@ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+@ease-in-out-circ: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+@ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+@ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+@ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+/*▲----------过渡动画----------▲*/
+
+
+/*▼----------Z-index层级----------▼*/
+@zindex-navbar: 1000;
+@zindex-dropdown: 1000;
+@zindex-popover: 1060;
+@zindex-tooltip: 1070;
+@zindex-navbar-fixed: 1030;
+@zindex-modal-background: 1040;
+@zindex-modal: 1050;
+/*▲----------Z-index层级----------▲*/
+
+
+/*▼----------边框----------▼*/
+@border-width-base: 1px; // 大小
+@border-style-base: solid; // 类型
+@border-color-base: @border-color; // 颜色
+/*▲----------边框----------▲*/
+
+
+/*▼----------垂直方向的内边距----------▼*/
+@padding-lg: 24px; // containers
+@padding-md: 16px; // small containers and buttons
+@padding-sm: 12px; // Form controls and items
+@padding-xs: 8px; // small items
+@padding-xss: 4px; // more small
+/*▲----------垂直方向的内边距----------▲*/
+
+/*▼----------垂直方向的外边距----------▼*/
+@margin-lg: 24px; // containers
+@margin-md: 16px; // small containers and buttons
+@margin-sm: 12px; // Form controls and items
+@margin-xs: 8px; // small items
+@margin-xss: 4px; // more small
+/*▲----------垂直方向的外边距----------▲*/
+
+
+/*▼----------其它----------▼*/
+@border-radius: 2px; // 圆角
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // 浮层阴影
+/*▲----------其它----------▲*/
+
+
+/*▼----------组件-按钮----------▼*/
+@btn-font-weight: 400;
+
+@btn-font-size-base: @font-size-base;
+@btn-font-size-lg: @font-size-large;
+@btn-font-size-sm: @font-size-small;
+
+@btn-height-lg: 38px;
+@btn-height-base: 32px;
+@btn-height-sm: 26px;
+
+@btn-border-radius-base: @border-radius;
+@btn-border-radius-lg: @border-radius;
+@btn-border-radius-sm: @border-radius;
+
+@btn-border-width: @border-width-base;
+@btn-border-style: @border-style-base;
+@btn-border-color: transparent;
+
+@btn-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+@btn-box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+@btn-text-shadow: 0 -1px 0 rgba(0, 0, 0, .012);
+
+@btn-default-color: @text-color;
+@btn-default-bg: @component-background-color;
+@btn-default-border: @border-color;
+
+@btn-primary-color: @white;
+@btn-primary-bg: @primary;
+@btn-primary-border: @primary;
+
+@btn-dashed-color: @text-color;
+@btn-dashed-bg: @component-background-color;
+@btn-dashed-border: @border-color;
+@btn-dashed-style: dashed;
+
+@btn-success-color: @white;
+@btn-success-bg: @success;
+@btn-success-border: @success;
+
+@btn-warning-color: @white;
+@btn-warning-bg: @warning;
+@btn-warning-border: @warning;
+
+@btn-danger-color: @white;
+@btn-danger-bg: @danger;
+@btn-danger-border: @danger;
+
+@btn-link-color: @link-color;
+@btn-link-bg: transparent;
+@btn-link-border: transparent;
+
+@btn-round-size-base: @btn-height-base;
+@btn-round-size-lg: @btn-height-lg;
+@btn-round-size-sm: @btn-height-sm;
+
+@btn-disabled-color: @disabled-color;
+@btn-disabled-bg: @disabled-bg-color;
+@btn-disabled-border: @border-color;
+
+@btn-ghost-color: @component-background-color;
+@btn-ghost-bg: transparent;
+@btn-ghost-border: @component-background-color;
+
+@btn-padding-base: 0 @padding-md - 1px;
+@btn-padding-lg: @btn-padding-base;
+@btn-padding-sm: 0 @padding-xs - 1px;
+
+@btn-text-hover-bg: rgba(0, 0, 0, .018);
+/*▲----------组件-按钮----------▲*/

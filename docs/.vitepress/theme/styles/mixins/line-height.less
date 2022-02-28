@@ -1,0 +1,4 @@
+//** 当设置了`margin`, `padding`等等，根据基础字体大小和基础行高，计算对应行高
+.line-height-computed(@font-size: 14px, @line-height: 1.428571429) {
+  line-height: floor((@font-size * @line-height))
+}

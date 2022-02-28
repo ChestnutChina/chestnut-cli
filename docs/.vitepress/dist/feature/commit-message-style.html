@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Commit Message Style | Chestnut CLI</title>
+    <meta name="description" content="前端项目工程化脚手架">
+    <link rel="stylesheet" href="/chestnut-cli/assets/style.fc4f02ab.css">
+    <link rel="modulepreload" href="/chestnut-cli/assets/app.d3afc62b.js">
+    <link rel="modulepreload" href="/chestnut-cli/assets/feature_commit-message-style.md.8c3d9646.lean.js">
+    
+    <meta name="twitter:title" content="Commit Message Style | Chestnut CLI">
+  <meta property="og:title" content="Commit Message Style | Chestnut CLI">
+  </head>
+  <body>
+    <div id="app"><div class="layout"><header class="layout-header-wrap clearfix"><div class="logo"><a href="/chestnut-cli/">Chestnut-CLI</a></div><ul class="menu-navs clearfix"><li class="nav-item"><a href="/chestnut-cli/guide/introduction">指南</a></li><li class="nav-item"><a href="/chestnut-cli/guide/quickstart">功能</a></li></ul></header><div class="layout-main"><div class="layout-siderbar"><div class="withoutScroll siderbar-wrap"><ul class="siderbar"><!--[--><!--]--></ul></div></div><div class="layout-container"><div class="content chestnut-doc"><div style="position:relative;"><div><h2 id="commit-message-style" tabindex="-1">Commit Message Style <a class="header-anchor" href="#commit-message-style" aria-hidden="true">#</a></h2><blockquote><p>When you commit with Commitizen, you&#39;ll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though that can still be helpful)</p></blockquote><p>引用官方的说法：如果项目中配置了 Git Commit Message 规范，系统将提示您在提交时填写任何必需的提交字段。无需再等到稍后 git 提交挂钩运行并拒绝。</p><p>提供了一套 Git Commit Message 的模板，这样团队开发中，使用统一的模板，能更好追踪和管理 git 的日志记录。</p><p>本文约定如下:</p><ul><li>默认配置文件表示<code>.czrc</code></li></ul><h3 id="使用方法" tabindex="-1">使用方法 <a class="header-anchor" href="#使用方法" aria-hidden="true">#</a></h3><p>选择此配置后，出现以下几种情况：</p><ul><li>如果当前项目中没有配置过，则创建一个默认配置文件</li><li>如果当前项目中已存在默认配置文件，则提示是否文件替换</li><li>如果其它优先级的配置文件存在，则提示是否创建一个默认配置文件进行优先级覆盖</li></ul><p>当安装配置完成后，<strong>git add</strong>后，运行</p><div class="language-bash"><pre><code><span class="token function">git</span> cz
+</code></pre></div><p>这时候就会看到提交模板</p><div class="language-bash"><pre><code>? Select the <span class="token builtin class-name">type</span> of change that you&#39;re committing: <span class="token punctuation">(</span>Use arrow keys<span class="token punctuation">)</span>
+<span class="token operator">&gt;</span> feat:     A new feature
+  fix:      A bug fix
+  docs:     Documentation only changes
+  style:    Changes that <span class="token keyword">do</span> not affect the meaning of the code <span class="token punctuation">(</span>white-space, formatting, missing semi-colons, etc<span class="token punctuation">)</span>
+  refactor: A code change that neither fixes a bug nor adds a feature
+  perf:     A code change that improves performance
+  test:     Adding missing tests or correcting existing tests
+<span class="token punctuation">(</span>Move up and down to reveal <span class="token function">more</span> choices<span class="token punctuation">)</span>
+</code></pre></div><p>类型选择大致如下:</p><table><thead><tr><th>类型</th><th>说明</th></tr></thead><tbody><tr><td>feat</td><td>新增一个功能</td></tr><tr><td>fix</td><td>修复一个 Bug</td></tr><tr><td>docs</td><td>文档变更</td></tr><tr><td>style</td><td>代码格式（不影响功能，例如空格、分号等格式修正）</td></tr><tr><td>refactor</td><td>代码重构</td></tr><tr><td>perf</td><td>改善性能</td></tr><tr><td>test</td><td>测试相关</td></tr><tr><td>build</td><td>变更项目构建或外部依赖（例如 scopes: webpack、gulp、npm 等）</td></tr><tr><td>ci</td><td>更改持续集成软件的配置文件或 package 中的 scripts 命令，例如 scopes: Travis, Circle 等</td></tr><tr><td>chore</td><td>其他不修改src或测试文件的更改（一些无关紧要的更改）</td></tr><tr><td>revert</td><td>代码回退</td></tr></tbody></table><h3 id="配置文件" tabindex="-1">配置文件 <a class="header-anchor" href="#配置文件" aria-hidden="true">#</a></h3><p>脚手架生成默认配置文件内容大概如下:</p><div class="language-"><pre><code>{
+  &quot;path&quot;: &quot;./node_modules/cz-conventional-changelog&quot;
+}
+</code></pre></div><p>更多详情信息和配置可以移步<a href="https://github.com/commitizen/cz-cli" target="_blank" rel="noopener noreferrer">commitizen</a>查看</p></div></div><div class="layout-antorns"><div class="antorns-wrap"><div class="antorn-container"><div class="antorn-line"><span style="top:8px;" class="antorn-line-i"></span></div><ul class="antorn-list"><!--[--><li class=""><a data-href="#commit-message-style" href="#commit-message-style">Commit Message Style</a></li><li class=""><a data-href="#使用方法" href="#使用方法">使用方法</a></li><li class=""><a data-href="#配置文件" href="#配置文件">配置文件</a></li><!--]--></ul></div></div></div></div></div></div><div class="footer" data-v-7d3421d0><div class="container" data-v-7d3421d0><div class="footer-main" data-v-7d3421d0><h5 data-v-7d3421d0>Chestnut Design</h5><!--[--><a href="https://github.com/bnuephjx/conventional-changelog-chestnut.git" class="footer-main-link" target="_blank" data-v-7d3421d0><span data-v-7d3421d0>Conventional Changelog Chestnut</span><span class="sub" data-v-7d3421d0> - </span><span class="sub" data-v-7d3421d0>日志模板</span></a><a href="http://bnuephjx.gitee.io/cheatnut-chart-docs-test" class="footer-main-link" target="_blank" data-v-7d3421d0><span data-v-7d3421d0>Chestnut Chart</span><span class="sub" data-v-7d3421d0> - </span><span class="sub" data-v-7d3421d0>3D图表库</span></a><a href=" http://bnuephjx.gitee.io/test_pages" class="footer-main-link" target="_blank" data-v-7d3421d0><span data-v-7d3421d0>Chestnut UI</span><span class="sub" data-v-7d3421d0> - </span><span class="sub" data-v-7d3421d0>未发布可查看</span></a><!--]--></div><div class="footer-main" data-v-7d3421d0><h5 data-v-7d3421d0>友情链接</h5><a href="https://vue3js.cn/docs/zh/" class="footer-main-link" target="_blank" data-v-7d3421d0>Vue</a><a href="https://cli.vuejs.org/" class="footer-main-link" target="_blank" data-v-7d3421d0>Vue CLI</a></div></div><p class="for-the-record" data-v-7d3421d0><img alt="NPM" src="https://img.shields.io/npm/l/chestnut-cli?color=%231890ff&amp;registry_uri=https%3A%2F%2Fregistry.npmjs.com&amp;style=flat-square" data-v-7d3421d0><img alt="Copyright" src="https://img.shields.io/badge/©-Copyright 2021 Chestnut CLI-1890ff?style=flat-square&amp;logo=copyright&amp;logoColor=white" data-v-7d3421d0></p></div></div></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"feature_code-detection.md\":\"59b17bd1\",\"feature_code-formatter.md\":\"9b1ce4ed\",\"feature_code-style.md\":\"db507612\",\"feature_commit-message-style.md\":\"8c3d9646\",\"feature_git-hooks.md\":\"b856bce8\",\"feature_release.md\":\"f2d50910\",\"guide_introduction.md\":\"f9192273\",\"guide_quickstart.md\":\"8dafce32\",\"index.md\":\"8e1c4bc8\"}")</script>
+    <script type="module" async src="/chestnut-cli/assets/app.d3afc62b.js"></script>
+    
+  </body>
+</html>
