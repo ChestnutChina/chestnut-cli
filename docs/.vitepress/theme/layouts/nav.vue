@@ -8,7 +8,7 @@
         <a :href="`${base}guide/introduction`">指南</a>
       </li>
       <li class="nav-item">
-        <a :href="`${base}guide/quickstart`">功能</a>
+        <a :href="`${base}feature/code-style`">功能</a>
       </li>
     </ul>
   </header>
