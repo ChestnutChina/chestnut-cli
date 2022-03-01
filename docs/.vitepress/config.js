@@ -4,9 +4,9 @@ const config = {
   base: '/chestnut-cli/',
   title: 'Chestnut CLI',
   description: '前端项目工程化脚手架',
+  head,
   themeConfig: {
     docsDir: 'docs',
-    head,
     sidebars
   },
   markdown: {

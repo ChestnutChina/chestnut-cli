@@ -10,6 +10,10 @@
         </a>
       </div>
       <div class="footer-main">
+        <h5>社区</h5>
+        <a href="https://github.com/ChestnutChina/chestnut-cli/issues" class="footer-main-link" target="_blank">问题收集</a>
+      </div>
+      <div class="footer-main">
         <h5>友情链接</h5>
         <a href="https://vue3js.cn/docs/zh/" class="footer-main-link" target="_blank">Vue</a>
         <a href="https://cli.vuejs.org/" class="footer-main-link" target="_blank">Vue CLI</a>

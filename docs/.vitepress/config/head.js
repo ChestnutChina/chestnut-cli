@@ -3,7 +3,7 @@ export default [
     'link',
     {
       rel: 'icon',
-      href: '/path/to/favicon.ico',
+      href: '/chestnut-cli/favicon.ico',
     },
   ],
   [
