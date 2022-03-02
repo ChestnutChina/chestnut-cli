@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.5...1.0.6) (2022-03-02)
+
+
+### Bug Fixes
+
+* 修复已知bug ([9a22406](https://github.com/ChestnutChina/chestnut-cli/commit/9a224060dee3787280d69bbde559175863533e5b))
+
+
 ## [1.0.5](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.4...1.0.5) (2022-02-27)
 
 
