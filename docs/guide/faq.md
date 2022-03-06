@@ -20,13 +20,13 @@ chestnut-cli : 无法加载文件 （这是路径），因为在此系统上禁�
     ```
 
 3. 如果出现结果为：**Restricted**（表示状态是禁止）
-4. 然后接着执行
+4. 然后接着执行以下命令
 
     ```bash
     set-ExecutionPolicy RemoteSigned
     ```
 
-5. 继续执行查看命令：
+5. 然后选择**Y**，继续执行查看命令：
 
     ```bash
     get-ExecutionPolicy
