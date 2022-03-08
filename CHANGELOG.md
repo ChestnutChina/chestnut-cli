@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.6...1.0.7) (2022-03-08)
+
+
+### Bug Fixes
+
+* 修复eslint选择ts配置文件报错 ([115738b](https://github.com/ChestnutChina/chestnut-cli/commit/115738b038b3a576b0109069f2daf845784f961c))
+
+
 ## [1.0.6](https://github.com/ChestnutChina/chestnut-cli/compare/1.0.5...1.0.6) (2022-03-02)
 
 
