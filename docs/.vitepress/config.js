@@ -7,11 +7,11 @@ const config = {
   head,
   themeConfig: {
     docsDir: 'docs',
-    sidebars
+    sidebars,
   },
   markdown: {
-    lineNumbers: false
-  }
-}
+    lineNumbers: false,
+  },
+};
 
 export default config;
