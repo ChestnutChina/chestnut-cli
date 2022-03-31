@@ -11,7 +11,7 @@
       </div>
       <div class="footer-main">
         <h5>社区</h5>
-        <a href="https://github.com/ChestnutChina/chestnut-cli/issues" class="footer-main-link" target="_blank">问题收集</a>
+        <a href="http://chestnut-china.gitee.io/chestnut-issue-helper?repo=chestnut-cli" class="footer-main-link" target="_blank">问题收集</a>
       </div>
       <div class="footer-main">
         <h5>友情链接</h5>
