@@ -1,0 +1,23 @@
+{
+  "text": "WebGL",
+  "group": [
+    {
+      "text": "概要",
+      "children": [
+        {
+          "text": "Learn WebGL",
+          "link": "/learn-webgl"
+        }
+      ]
+    },
+    {
+      "text": "第一章",
+      "children": [
+        {
+          "text": "简介",
+          "link": "/1/1-introduction"
+        }
+      ]
+    }
+  ]
+}
