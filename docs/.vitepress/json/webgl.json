@@ -16,6 +16,63 @@
         {
           "text": "简介",
           "link": "/1/1-introduction"
+        },
+        {
+          "text": "3D计算机图形学",
+          "link": "/1/2-3D-Computer-Graphics"
+        },
+        {
+          "text": "计算机图形学简史",
+          "link": "/1/3-Computer-Graphics"
+        },
+        {
+          "text": "WebGL程序的文件组织",
+          "link": "/1/4-file-organization"
+        },
+        {
+          "text": "WebGL程序的软件组织",
+          "link": "/1/5-software-organization"
+        },
+        {
+          "text": "软件编码标准",
+          "link": "/1/6-software-coding-Standards"
+        }
+      ]
+    },
+    {
+      "text": "第二章",
+      "children": [
+        {
+          "text": "语言和工具介绍",
+          "link": "/2/1-languages-and-tools"
+        },
+        {
+          "text": "HTML和CSS",
+          "link": "/2/2-html-and-css"
+        },
+        {
+          "text": "JavaScript语言",
+          "link": "/2/3-javascript-language"
+        },
+        {
+          "text": "DOM和jQuery",
+          "link": "/2/4-dom-and-jQuery"
+        },
+        {
+          "text": "画布和GL上下文",
+          "link": "/2/5-canvas-and-gL-context"
+        },
+        {
+          "text": "异步文件加载",
+          "link": "/2/6-asynchronous-file-loading"
+        },
+        {
+          "text": "事件",
+          "link": "/2/7-events"
+        },
+        {
+          "text": "调试",
+          "link": "/2/8-debugging"
         }
       ]
     }

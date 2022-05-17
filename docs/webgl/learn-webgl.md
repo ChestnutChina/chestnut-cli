@@ -36,8 +36,8 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 - [2.2 - HTML和CSS](./2/2-html-and-css.md)
 - [2.3 - JavaScript语言](./2/3-javascript-language.md)
 - [2.4 - DOM和jQuery](./2/4-dom-and-jQuery.md)
-- 2.5 - 画布和GL上下文
-- 2.6 - 异步文件加载
+- [2.5 - 画布和GL上下文](./2/5-canvas-and-gL-context.md)
+- [2.6 - 异步文件加载](./2/6-asynchronous-file-loading.md)
 - 2.7 - 事件
 - 2.8 - 调试
 
