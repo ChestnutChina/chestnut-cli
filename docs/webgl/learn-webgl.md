@@ -24,18 +24,18 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 #### 第一章: “提纲”
 
 - [1.1 - 简介](./1/1-introduction.md)
-- 1.2 - 3D计算机图形学 - 是什么和可以做什么
-- 1.3 - 计算机图形学 - 简史
-- 1.4 - WebGL程序的文件组织
-- 1.5 - WebGL程序的软件组织
-- 1.6 - 软件编码标准
+- [1.2 - 3D计算机图形学 - 是什么和可以做什么](./1/2-3D-Computer-Graphics.md)
+- [1.3 - 计算机图形学 - 简史](./1/3-Computer-Graphics.md)
+- [1.4 - WebGL程序的文件组织](./1/4-file-organization.md)
+- [1.5 - WebGL程序的软件组织](./1/5-software-organization.md)
+- [1.6 - 软件编码标准](./1/6-software-coding-Standards.md)
 
 #### 第二章: 工具和语言
 
-- 2.1 - 语言和工具介绍
-- 2.2 - HTML和CSS
-- 2.3 - JavaScript语言
-- 2.4 - DOM和jQuery
+- [2.1 - 语言和工具介绍](./2/1-languages-and-tools.md)
+- [2.2 - HTML和CSS](./2/2-html-and-css.md)
+- [2.3 - JavaScript语言](./2/3-javascript-language.md)
+- [2.4 - DOM和jQuery](./2/4-dom-and-jQuery.md)
 - 2.5 - 画布和GL上下文
 - 2.6 - 异步文件加载
 - 2.7 - 事件
