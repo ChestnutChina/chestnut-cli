@@ -38,18 +38,18 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 - [2.4 - DOM和jQuery](./2/4-dom-and-jQuery.md)
 - [2.5 - 画布和GL上下文](./2/5-canvas-and-gL-context.md)
 - [2.6 - 异步文件加载](./2/6-asynchronous-file-loading.md)
-- 2.7 - 事件
-- 2.8 - 调试
+- [2.7 - 事件](./2/7-events.md)
+- [2.8 - 调试](./2/8-debugging.md)
 
 #### 第三章: 模型数据
 
-- 3.1 - 引言 - 描述虚拟世界
-- 3.2 - 建模位置
-- 3.3 - 方向/方位
-- 3.4 - 体积/表面
-- 3.5 - 材料属性
-- 3.6 - 颜色
-- 3.7 - 纹理图
+- [3.1 - 引言 - 描述虚拟世界](./3/1-virtual-worlds.md)
+- [3.2 - 建模位置](./3/2-modeling-location.md)
+- [3.3 - 方向/方位](./3/3-direction-or-orientation.md)
+- [3.4 - 体积/表面](./3/4-volume-or-surfaces.md)
+- [3.5 - 材料属性](./3/5-material-properties.md)
+- [3.6 - 颜色](./3/6-color.md)
+- [3.7 - 纹理图](./3/7-texture-maps.md)
 - 3.8 - 照明建模
 - 3.9 - 表面法线
 - 3.10 - 线条
