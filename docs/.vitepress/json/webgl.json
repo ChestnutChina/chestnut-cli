@@ -120,6 +120,23 @@
           "link": "/3/10-lines"
         }
       ]
+    },
+    {
+      "text": "第四章",
+      "children": [
+        {
+          "text": "3D建模",
+          "link": "/4/1-3D-modeling"
+        },
+        {
+          "text": "Blender",
+          "link": "/4/2-Blender"
+        },
+        {
+          "text": "OBJ数据格式",
+          "link": "/4/3-OBJ-data-format"
+        }
+      ]
     }
   ]
 }
