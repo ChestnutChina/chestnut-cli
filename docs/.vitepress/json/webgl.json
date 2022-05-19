@@ -137,6 +137,23 @@
           "link": "/4/3-OBJ-data-format"
         }
       ]
+    },
+    {
+      "text": "第五章",
+      "children": [
+        {
+          "text": "渲染简介",
+          "link": "/5/1-rendering"
+        },
+        {
+          "text": "着色器入门",
+          "link": "/5/2-a-primer-on-shaders"
+        },
+        {
+          "text": "缓冲区对象入门",
+          "link": "/5/3-a-primer-on-buffer-objects"
+        }
+      ]
     }
   ]
 }
