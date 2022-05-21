@@ -152,6 +152,34 @@
         {
           "text": "缓冲区对象入门",
           "link": "/5/3-a-primer-on-buffer-objects"
+        },
+        {
+          "text": "一个简单的模型",
+          "link": "/5/4-a-simple-model"
+        },
+        {
+          "text": "例1: 每个模型一种颜色",
+          "link": "/5/5-one-color-per-model"
+        },
+        {
+          "text": "例2: 每个三角形一个颜色",
+          "link": "/5/6-one-color-per-triangle"
+        },
+        {
+          "text": "例3：每个顶点一种颜色",
+          "link": "/5/7-one-color-per-vertex"
+        },
+        {
+          "text": "例4：纹理",
+          "link": "/5/8-textures"
+        },
+        {
+          "text": "交错的缓冲区",
+          "link": "/5/9-interleaved-buffers"
+        },
+        {
+          "text": "OBJ数据转换为缓冲器对象",
+          "link": "/5/10-OBJ-data-to-buffer"
         }
       ]
     }
