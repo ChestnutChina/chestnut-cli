@@ -80,7 +80,7 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 - [6.3 - 平移](./6/3-translating.md)
 - [6.4 - 旋转](./6/4-rotating.md)
 - [6.5 - 变换矩阵](./6/5-transformation-matrices.md)
-- 6.6 - 矩阵代码库 - Learn_webgl_matrix
+- [6.6 - 矩阵代码库 - Learn_webgl_matrix](./6/6-a-matrix-code-library.md)
 - 6.7 - 使用Learn_webgl_matrix - 一个机器人手臂的底座
 - 6.8 - 连锁变形 - 添加一个前臂
 - 6.9 - 链式变形 - 添加上臂

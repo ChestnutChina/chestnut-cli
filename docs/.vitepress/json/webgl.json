@@ -205,6 +205,10 @@
         {
           "text": "转换矩阵",
           "link": "/6/5-transformation-matrices"
+        },
+        {
+          "text": "矩阵代码库",
+          "link": "/6/6-a-matrix-code-library"
         }
       ]
     }
