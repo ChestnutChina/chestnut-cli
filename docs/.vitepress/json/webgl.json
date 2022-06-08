@@ -209,6 +209,30 @@
         {
           "text": "矩阵代码库",
           "link": "/6/6-a-matrix-code-library"
+        },
+        {
+          "text": "使用Learn_webgl_matrix",
+          "link": "/6/7-a-robot-arm-base"
+        },
+        {
+          "text": "链式转换",
+          "link": "/6/8-chaining-transformations"
+        },
+        {
+          "text": "添加上臂",
+          "link": "/6/9-adding-an-upper-arm"
+        },
+        {
+          "text": "链式变换（总结）",
+          "link": "/6/10-chaining-transformations-summary"
+        },
+        {
+          "text": "更多矩阵数学概念",
+          "link": "/6/11-more-matrix-math-concepts"
+        },
+        {
+          "text": "编码问题",
+          "link": "/6/12-coding-issues"
         }
       ]
     }

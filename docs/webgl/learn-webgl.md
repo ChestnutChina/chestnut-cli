@@ -81,12 +81,12 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 - [6.4 - 旋转](./6/4-rotating.md)
 - [6.5 - 变换矩阵](./6/5-transformation-matrices.md)
 - [6.6 - 矩阵代码库 - Learn_webgl_matrix](./6/6-a-matrix-code-library.md)
-- 6.7 - 使用Learn_webgl_matrix - 一个机器人手臂的底座
-- 6.8 - 连锁变形 - 添加一个前臂
-- 6.9 - 链式变形 - 添加上臂
-- 6.10 - 链式变换（总结）
-- 6.11 - 更多矩阵数学概念
-- 6.12 - 编码问题
+- [6.7 - 使用Learn_webgl_matrix - 一个机器人手臂的底座](./6/7-a-robot-arm-base.md)
+- [6.8 - 连锁变形 - 添加一个前臂](./6/8-chaining-transformations.md)
+- [6.9 - 链式变形 - 添加上臂](./6/9-adding-an-upper-arm.md)
+- [6.10 - 链式变换（总结）](./6/10-chaining-transformations-summary.md)
+- [6.11 - 更多矩阵数学概念](./6/11-more-matrix-math-concepts.md)
+- [6.12 - 编码问题](./6/12-coding-issues.md)
 
 #### 第七章: 照相机
 
