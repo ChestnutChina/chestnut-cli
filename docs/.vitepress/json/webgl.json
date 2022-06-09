@@ -235,6 +235,43 @@
           "link": "/6/12-coding-issues"
         }
       ]
+    },
+    {
+      "text": "第七章",
+      "children": [
+        {
+          "text": "相机介绍",
+          "link": "/7/1-introduction-to-cameras"
+        },
+        {
+          "text": "相机数学",
+          "link": "/7/2-camera-math"
+        },
+        {
+          "text": "相机运动",
+          "link": "/7/3-camera-movement"
+        },
+        {
+          "text": "移动相机",
+          "link": "/7/4-moving-a-camera"
+        },
+        {
+          "text": "旋转相机",
+          "link": "/7/5-rotating-a-camera"
+        },
+        {
+          "text": "沿路径的点",
+          "link": "/7/6-points-along-a-path"
+        },
+        {
+          "text": "沿路径计时",
+          "link": "/7/7-timing-along-a-path"
+        },
+        {
+          "text": "屏幕更新和动画",
+          "link": "/7/8-screen-updates-and-animation"
+        }
+      ]
     }
   ]
 }

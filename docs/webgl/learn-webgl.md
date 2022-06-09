@@ -90,14 +90,14 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 
 #### 第七章: 照相机
 
-- 7.1 - 相机简介
-- 7.2 - 相机数学
-- 7.3 - 相机的移动
-- 7.4 - 移动摄像机
-- 7.5 - 旋转摄像机
-- 7.6 - 沿着路径的点
-- 7.7 - 沿路径计时
-- 7.8 - 屏幕更新和动画
+- [7.1 - 相机简介](./7/1-introduction-to-cameras.md)
+- [7.2 - 相机数学](./7/2-camera-math.md)
+- [7.3 - 相机的移动](./7/3-camera-movement.md)
+- [7.4 - 移动摄像机](./7/4-moving-a-camera.md)
+- [7.5 - 旋转摄像机](./7/5-rotating-a-camera.md)
+- [7.6 - 沿着路径的点](./7/6-points-along-a-path.md)
+- [7.7 - 沿路径计时](./7/8-screen-updates-and-animation.md)
+- [7.8 - 屏幕更新和动画](./7/8-screen-updates-and-animation.md)
 
 #### 第八章: 投影和视口
 
