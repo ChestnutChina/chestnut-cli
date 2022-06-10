@@ -297,6 +297,39 @@
           "link": "/8/5-summary-projections-and-viewports"
         }
       ]
+    },
+    {
+      "text": "第九章",
+      "children": [
+        {
+          "text": "照明介绍",
+          "link": "/9/1-introduction-to-lighting"
+        },
+        {
+          "text": "漫反射照明",
+          "link": "/9/2-diffuse-lighting"
+        },
+        {
+          "text": "镜面照明",
+          "link": "/9/3-specular-lighting"
+        },
+        {
+          "text": "环境照明",
+          "link": "/9/4-ambient-lighting"
+        },
+        {
+          "text": "结合环境光、漫反射光和镜面光",
+          "link": "/9/5-combining-ambient-diffuse-and-specular-lighting"
+        },
+        {
+          "text": "片段着色器的调试",
+          "link": "/9/6-fragment-shader-debugging"
+        },
+        {
+          "text": "光线衰减",
+          "link": "/9/7-light-attenuation"
+        }
+      ]
     }
   ]
 }
