@@ -101,11 +101,11 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 
 #### 第八章: 投影和视口
 
-- 8.1 - 投影简介
-- 8.2 - 正射投影
-- 8.3 - 透视投影
-- 8.4 - 视口
-- 8.5 - 投影和视口的总结
+- [8.1 - 投影简介](./8/1-introduction-to-projections.md)
+- [8.2 - 正射投影](./8/2-orthographic-projections.md)
+- [8.3 - 透视投影](./8/3-perspective-projections.md)
+- [8.4 - 视口](./8/4-viewports.md)
+- [8.5 - 投影和视口的总结](./8/5-summary-projections-and-viewports.md)
 
 #### 第九章: 灯光
 

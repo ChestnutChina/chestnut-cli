@@ -272,6 +272,31 @@
           "link": "/7/8-screen-updates-and-animation"
         }
       ]
+    },
+    {
+      "text": "第八章",
+      "children": [
+        {
+          "text": "投影简介",
+          "link": "/8/1-introduction-to-projections"
+        },
+        {
+          "text": "正射投影",
+          "link": "/8/2-orthographic-projections"
+        },
+        {
+          "text": "透视投影",
+          "link": "/8/3-perspective-projections"
+        },
+        {
+          "text": "视口",
+          "link": "/8/4-viewports"
+        },
+        {
+          "text": "投影和视口的总结",
+          "link": "/8/5-summary-projections-and-viewports"
+        }
+      ]
     }
   ]
 }
