@@ -6,6 +6,14 @@ export default [
       href: '/chestnut-cli/favicon.ico',
     },
   ],
+  // 如果要加载其它lateX的字体，可以通过下面链接
+  // [
+  //   'link',
+  //   {
+  //     rel: 'stylesheet',
+  //     href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css',
+  //   }
+  // ],
   [
     'meta',
     {
