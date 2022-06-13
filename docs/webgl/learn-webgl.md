@@ -143,16 +143,16 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 
 #### 第十二章: 着色器语言
 
-- 12.1 - WebGL着色器语言
-- 12.2 - GLSL数据类型和变量
-- 12.3 - GLSL控制结构
-- 12.4 - GLSL运算符（数学和逻辑）
-- 12.5 - GLSL内置函数和变量
-- 12.6 - GLSL编译和连接
+- [12.1 - WebGL着色器语言](./12/1-webGL-shader-language.md)
+- [12.2 - GLSL数据类型和变量](./12/2-glsl-data-types-and-variables.md)
+- [12.3 - GLSL控制结构](./12/3-glsl-control-structures.md)
+- [12.4 - GLSL运算符（数学和逻辑）](./12/4-glsl-gperators.md)
+- [12.5 - GLSL内置函数和变量](./12/5-glsl-built-in-functions-and-variables.md)
+- [12.6 - GLSL编译和连接](./12/6-glsl-compiling-and-linking.md)
 
 ### 致谢
 
-- WebGL参考资料
-- Tutorial Author
+- [WebGL参考资料](./webgl-references.md)
+- [Tutorial Author](./tutorial-author.md)
 
 本文翻译来自[这里](http://learnwebgl.brown37.net/index.html#)

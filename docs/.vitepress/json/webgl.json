@@ -412,6 +412,35 @@
           "link": "/11/7-overlays"
         }
       ]
+    },
+    {
+      "text": "第十二章",
+      "children": [
+        {
+          "text": "WebGL 着色器语言",
+          "link": "/12/1-webGL-shader-language"
+        },
+        {
+          "text": "GLSL 数据类型和变量",
+          "link": "/12/2-glsl-data-types-and-variables"
+        },
+        {
+          "text": "GLSL 控制结构",
+          "link": "/12/3-glsl-control-structures"
+        },
+        {
+          "text": "GLSL 运算符（数学和逻辑）",
+          "link": "/12/4-glsl-gperators"
+        },
+        {
+          "text": "GLSL 内置函数和变量",
+          "link": "/12/5-glsl-built-in-functions-and-variables"
+        },
+        {
+          "text": "GLSL 编译和链接",
+          "link": "/12/6-glsl-compiling-and-linking"
+        }
+      ]
     }
   ]
 }
