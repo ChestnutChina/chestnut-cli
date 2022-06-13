@@ -116,7 +116,7 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 - [9.5 - 结合环境、漫反射和镜面照明](./9/5-combining-ambient-diffuse-and-specular-lighting.md)
 - [9.6 - 片段着色器的调试](./9/6-fragment-shader-debugging.md)
 - [9.7 - 光线衰减](./9/7-light-attenuation.md)
-- 9.8 - 光源的类型
+- [9.8 - 光源的类型](./9/8-types-of-light-sources.md)
 
 #### 第十章: 表面性质
 

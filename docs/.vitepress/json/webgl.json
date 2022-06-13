@@ -328,6 +328,10 @@
         {
           "text": "光线衰减",
           "link": "/9/7-light-attenuation"
+        },
+        {
+          "text": "光源的类型",
+          "link": "/9/8-types-of-light-sources"
         }
       ]
     }

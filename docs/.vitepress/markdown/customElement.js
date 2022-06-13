@@ -1,3 +1,4 @@
+// https://katex.org/docs/supported.html
 export const customElements = [
   'math',
   'maction',

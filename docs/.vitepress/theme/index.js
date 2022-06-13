@@ -2,8 +2,8 @@
 import Layout from './global-components/layout.vue';
 import NotFound from './global-components/not-found.vue';
 
-import './styles/pc.less';
 import './styles/common/katex.min.css';
+import './styles/pc.less';
 
 const components = [];
 
