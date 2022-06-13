@@ -120,16 +120,16 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 
 #### 第十章: 表面性质
 
-- 10.1 - 表面属性简介
-- 10.2 - 表面颜色
-- 10.3 - 平滑的 "Phong" 阴影
-- 10.4 - 使用图像进行纹理映射
-- 10.5 - 纹理映射 - 纹理坐标
-- 10.6 - 使用程序进行纹理贴图
-- 10.7 - 使用程序进行纹理贴图 - 续
-- 10.8 - 纹理贴图的变换
-- 10.9 - 其他表面处理方法
-- 10.10 - 结合光和表面属性
+- [10.1 - 表面属性简介](./10/1-introduction-to-surface-properties.md)
+- [10.2 - 表面颜色](./10/2-surface-colors.md)
+- [10.3 - 平滑的 "Phong" 阴影](./10/3-smooth%20-phong-shading.md)
+- [10.4 - 使用图像进行纹理映射](./10/4-texture-mapping-using-images.md)
+- [10.5 - 纹理映射 - 纹理坐标](./10/5-texture-coordinates.md)
+- [10.6 - 使用程序进行纹理贴图](./10/6-procedures.md)
+- [10.7 - 使用程序进行纹理贴图 - 续](./10/7-procedures-continued.md)
+- [10.8 - 纹理贴图的变换](./10/8-transformations-on-texture-maps.md)
+- [10.9 - 其他表面处理方法](./10/9-other-surface-manipulations.md)
+- [10.10 - 结合光和表面属性](./10/10-combining-light-and-surface-properties.md)
 
 #### 第十一章: 高级渲染和透明性
 

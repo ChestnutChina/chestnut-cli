@@ -334,6 +334,51 @@
           "link": "/9/8-types-of-light-sources"
         }
       ]
+    },
+    {
+      "text": "第十章",
+      "children": [
+        {
+          "text": "表面属性简介",
+          "link": "/10/1-introduction-to-surface-properties"
+        },
+        {
+          "text": "表面颜色",
+          "link": "/10/2-surface-colors"
+        },
+        {
+          "text": "平滑的Phong阴影",
+          "link": "/10/3-smooth -phong-shading"
+        },
+        {
+          "text": "图片纹理映射",
+          "link": "/10/4-texture-mapping-using-images"
+        },
+        {
+          "text": "纹理坐标",
+          "link": "/10/5-texture-coordinates"
+        },
+        {
+          "text": "纹理映射",
+          "link": "/10/6-procedures"
+        },
+        {
+          "text": "纹理映射-续",
+          "link": "/10/7-procedures-continued"
+        },
+        {
+          "text": "纹理贴图的变换",
+          "link": "/10/8-transformations-on-texture-maps"
+        },
+        {
+          "text": "其他曲面操作",
+          "link": "/10/9-other-surface-manipulations"
+        },
+        {
+          "text": "结合光和表面属性¶",
+          "link": "/10/10-combining-light-and-surface-properties"
+        }
+      ]
     }
   ]
 }
