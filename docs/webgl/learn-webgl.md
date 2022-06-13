@@ -133,13 +133,13 @@ WebGL是OpenGL的后代，可以在所有现代网络浏览器中执行，包括
 
 #### 第十一章: 高级渲染和透明性
 
-- 11.1 - 高级渲染的介绍
-- 11.2 - 移除隐藏表面
-- 11.3 - 选择物体
-- 11.4 - 透明度(和Alpha混合)
-- 11.5 - 阴影
-- 11.6 - 粒子系统
-- 11.7 - 叠加
+- [11.1 - 高级渲染的介绍](./11/1-introduction-to-advanced-rendering.md)
+- [11.2 - 移除隐藏表面](./11/2-hidden-surface-removal.md)
+- [11.3 - 选择物体](./11/3-selecting-objects.md)
+- [11.4 - 透明度(和Alpha混合)](./11/4-transparency-and-alpha-blending.md)
+- [11.5 - 阴影](./11/5-shadows.md)
+- [11.6 - 粒子系统](./11/6-particle-systems.md)
+- [11.7 - 叠加层](./11/7-overlays.md)
 
 #### 第十二章: 着色器语言
 

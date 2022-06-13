@@ -379,6 +379,39 @@
           "link": "/10/10-combining-light-and-surface-properties"
         }
       ]
+    },
+    {
+      "text": "第十一章",
+      "children": [
+        {
+          "text": "高级渲染简介",
+          "link": "/11/1-introduction-to-advanced-rendering"
+        },
+        {
+          "text": "隐藏表面去除",
+          "link": "/11/2-hidden-surface-removal"
+        },
+        {
+          "text": "选择对象",
+          "link": "/11/3-selecting-objects"
+        },
+        {
+          "text": "透明度（和 Alpha 混合）",
+          "link": "/11/4-transparency-and-alpha-blending"
+        },
+        {
+          "text": "阴影",
+          "link": "/11/5-shadows"
+        },
+        {
+          "text": "粒子系统",
+          "link": "/11/6-particle-systems"
+        },
+        {
+          "text": "叠加层",
+          "link": "/11/7-overlays"
+        }
+      ]
     }
   ]
 }
